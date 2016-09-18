@@ -1,6 +1,6 @@
 name        : pantheon-terminal
 version     : 0.4
-release     : 9
+release     : 10
 source     :
     - https://launchpad.net/pantheon-terminal/0.4.x/0.4/+download/pantheon-terminal-0.4.tar.xz : f95fc610e2efbe40c0d6e306cb8643d932dd797e508ab2c784a968c05ef65ff3
 license     : GPL-3.0
@@ -10,12 +10,9 @@ builddeps   :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(granite)
     - pkgconfig(vte-2.91)
-    - pkgconfig(libnotify)
     - vala
 description : |
     A super lightweight, beautiful, and simple terminal. It's designed to be setup with sane defaults and little to no configuration. It's just a terminal, nothing more, nothing less.
-    
-    Designed for elementary OS.
 setup      : |
     %cmake .
 build      : |

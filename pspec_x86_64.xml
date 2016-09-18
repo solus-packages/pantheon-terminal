@@ -2,15 +2,13 @@
     <Source>
         <Name>pantheon-terminal</Name>
         <Packager>
-            <Name>Blaž Mežnaršič</Name>
-            <Email>blazingeek@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
         <Summary xml:lang="en">A super lightweight, beautiful, and simple terminal.</Summary>
         <Description xml:lang="en">A super lightweight, beautiful, and simple terminal. It&apos;s designed to be setup with sane defaults and little to no configuration. It&apos;s just a terminal, nothing more, nothing less.
-
-Designed for elementary OS.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
@@ -18,8 +16,6 @@ Designed for elementary OS.
         <Name>pantheon-terminal</Name>
         <Summary xml:lang="en">A super lightweight, beautiful, and simple terminal.</Summary>
         <Description xml:lang="en">A super lightweight, beautiful, and simple terminal. It&apos;s designed to be setup with sane defaults and little to no configuration. It&apos;s just a terminal, nothing more, nothing less.
-
-Designed for elementary OS.
 </Description>
         <PartOf>desktop</PartOf>
         <Files>
@@ -33,12 +29,12 @@ Designed for elementary OS.
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2016-09-15</Date>
+        <Update release="10">
+            <Date>2016-09-18</Date>
             <Version>0.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Blaž Mežnaršič</Name>
-            <Email>blazingeek@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
