@@ -1,17 +1,17 @@
-name        : pantheon-terminal
-version     : 0.4
-release     : 10
+name       : pantheon-terminal
+version    : 0.4.0.4
+release    : 11
 source     :
-    - https://launchpad.net/pantheon-terminal/0.4.x/0.4/+download/pantheon-terminal-0.4.tar.xz : f95fc610e2efbe40c0d6e306cb8643d932dd797e508ab2c784a968c05ef65ff3
-license     : GPL-3.0
-summary     : A super lightweight, beautiful, and simple terminal.
-component   : desktop
-builddeps   :
+    - https://launchpad.net/pantheon-terminal/0.4.x/0.4.0.4/+download/pantheon-terminal-0.4.0.4.tar.xz : 91909f24de3d6bd6d6bee3e89c18e900cbaf04d88f85c36dfe6baaa9c69129fb
+license    : GPL-3.0
+summary    : A super lightweight, beautiful, and simple terminal.
+component  : desktop
+builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(granite)
     - pkgconfig(vte-2.91)
     - vala
-description : |
+description: |
     A super lightweight, beautiful, and simple terminal. It's designed to be setup with sane defaults and little to no configuration. It's just a terminal, nothing more, nothing less.
 setup      : |
     %cmake .
