@@ -1,8 +1,8 @@
 name       : pantheon-terminal
-version    : 0.4.0.4
-release    : 11
+version    : 0.4.3
+release    : 12
 source     :
-    - https://launchpad.net/pantheon-terminal/0.4.x/0.4.0.4/+download/pantheon-terminal-0.4.0.4.tar.xz : 91909f24de3d6bd6d6bee3e89c18e900cbaf04d88f85c36dfe6baaa9c69129fb
+    - https://launchpad.net/pantheon-terminal/0.4.x/0.4.3/+download/pantheon-terminal-0.4.3.tar.xz : 2f302e4fc8b3d430403f9732c78b2837d9ba8e674aab365dd97aafa760f70858
 license    : GPL-3.0
 summary    : A super lightweight, beautiful, and simple terminal.
 component  : desktop
