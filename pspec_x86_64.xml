@@ -2,8 +2,8 @@
     <Source>
         <Name>pantheon-terminal</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
@@ -29,12 +29,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2017-10-08</Date>
+        <Update release="13">
+            <Date>2018-01-27</Date>
             <Version>0.4.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>

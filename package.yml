@@ -1,6 +1,6 @@
 name       : pantheon-terminal
 version    : 0.4.3
-release    : 12
+release    : 13
 source     :
     - https://launchpad.net/pantheon-terminal/0.4.x/0.4.3/+download/pantheon-terminal-0.4.3.tar.xz : 2f302e4fc8b3d430403f9732c78b2837d9ba8e674aab365dd97aafa760f70858
 license    : GPL-3.0
