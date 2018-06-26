@@ -1,21 +1,24 @@
 name       : pantheon-terminal
-version    : 0.4.3
-release    : 13
+version    : '0.5'
+release    : 14
 source     :
-    - https://launchpad.net/pantheon-terminal/0.4.x/0.4.3/+download/pantheon-terminal-0.4.3.tar.xz : 2f302e4fc8b3d430403f9732c78b2837d9ba8e674aab365dd97aafa760f70858
-license    : GPL-3.0
-summary    : A super lightweight, beautiful, and simple terminal.
+    - https://github.com/elementary/terminal/archive/0.5.tar.gz : ee7a2deec37f9d61372acc7ae7e6560c5b6561f10b323dd49f0241920cb456e9
+license    : GPL-3.0-only
 component  : desktop
+summary    : A super lightweight, beautiful, and simple terminal.
+description: |
+    A super lightweight, beautiful, and simple terminal. It's designed to be setup with sane defaults and little to no configuration. It's just a terminal, nothing more, nothing less.
 builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(granite)
     - pkgconfig(vte-2.91)
     - vala
-description: |
-    A super lightweight, beautiful, and simple terminal. It's designed to be setup with sane defaults and little to no configuration. It's just a terminal, nothing more, nothing less.
 setup      : |
-    %cmake .
+    %patch -p1 < $pkgfiles/0001-Remove-unnecessary-tests.patch
+    %patch -p1 < $pkgfiles/vte0.52.patch
+
+    %meson_configure
 build      : |
-    %make
+    %ninja_build
 install    : |
-    %make_install
+    %ninja_install
