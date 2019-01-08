@@ -1,6 +1,6 @@
 name       : pantheon-terminal
 version    : '0.5'
-release    : 14
+release    : 15
 source     :
     - https://github.com/elementary/terminal/archive/0.5.tar.gz : ee7a2deec37f9d61372acc7ae7e6560c5b6561f10b323dd49f0241920cb456e9
 license    : GPL-3.0-only
