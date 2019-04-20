@@ -1,8 +1,8 @@
 name       : pantheon-terminal
-version    : '0.5'
-release    : 15
+version    : 5.3.4
+release    : 16
 source     :
-    - https://github.com/elementary/terminal/archive/0.5.tar.gz : ee7a2deec37f9d61372acc7ae7e6560c5b6561f10b323dd49f0241920cb456e9
+    - https://github.com/elementary/terminal/archive/5.3.4.tar.gz : 69bb43eae9737701e8d3c086423f4e7555080ab4aea2ade68488df6d24e5bd89
 license    : GPL-3.0-only
 component  : desktop
 summary    : A super lightweight, beautiful, and simple terminal.
@@ -15,9 +15,7 @@ builddeps  :
     - vala
 setup      : |
     %patch -p1 < $pkgfiles/0001-Remove-unnecessary-tests.patch
-    %patch -p1 < $pkgfiles/vte0.52.patch
-
-    %meson_configure
+    %meson_configure -Dubuntu-bionic-patched-vte=false
 build      : |
     %ninja_build
 install    : |

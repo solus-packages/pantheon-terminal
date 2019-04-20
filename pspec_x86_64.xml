@@ -2,15 +2,15 @@
     <Source>
         <Name>pantheon-terminal</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0-only</License>
         <PartOf>desktop</PartOf>
         <Summary xml:lang="en">A super lightweight, beautiful, and simple terminal.</Summary>
         <Description xml:lang="en">A super lightweight, beautiful, and simple terminal. It&apos;s designed to be setup with sane defaults and little to no configuration. It&apos;s just a terminal, nothing more, nothing less.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>pantheon-terminal</Name>
@@ -225,12 +225,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="15">
-            <Date>2019-01-08</Date>
-            <Version>0.5</Version>
+        <Update release="16">
+            <Date>2019-04-20</Date>
+            <Version>5.3.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
