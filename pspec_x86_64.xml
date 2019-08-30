@@ -2,8 +2,8 @@
     <Source>
         <Name>pantheon-terminal</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-only</License>
         <PartOf>desktop</PartOf>
@@ -189,6 +189,7 @@
             <Path fileType="localedata">/usr/share/locale/su/LC_MESSAGES/io.elementary.terminal.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/io.elementary.terminal.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sw/LC_MESSAGES/io.elementary.terminal.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/szl/LC_MESSAGES/io.elementary.terminal.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ta/LC_MESSAGES/io.elementary.terminal.mo</Path>
             <Path fileType="localedata">/usr/share/locale/te/LC_MESSAGES/io.elementary.terminal.mo</Path>
             <Path fileType="localedata">/usr/share/locale/tg/LC_MESSAGES/io.elementary.terminal.mo</Path>
@@ -225,12 +226,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2019-04-20</Date>
-            <Version>5.3.4</Version>
+        <Update release="17">
+            <Date>2019-08-30</Date>
+            <Version>5.3.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
         </Update>
     </History>
 </PISI>
