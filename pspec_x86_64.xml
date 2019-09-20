@@ -2,8 +2,8 @@
     <Source>
         <Name>pantheon-terminal</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin.zobel@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0-only</License>
         <PartOf>desktop</PartOf>
@@ -226,12 +226,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="17">
-            <Date>2019-08-30</Date>
+        <Update release="18">
+            <Date>2019-09-20</Date>
             <Version>5.3.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin.zobel@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
